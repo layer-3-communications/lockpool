@@ -112,4 +112,3 @@ newLockPool n = LockPool n
 -- setLockPoolSize :: LockPool -> Int -> IO ()
 -- setLockPoolSize (LockPool maxHoldersVar _) !newMax =
 --   atomically (writeTVar maxHoldersVar newMax)
-
